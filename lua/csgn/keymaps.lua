@@ -58,3 +58,7 @@ keymap("n", "<S-h>", ":bprevious<CR>", opts)
 
 -- Formatting
 keymap("n", "<leader>s", ":Format<cr>", opts)
+
+-- Clipboard
+keymap("n", "<leader>c", ":set clipboard=unnamedplus<CR>", opts)
+keymap("n", "<leader>C", ":set clipboard=<CR>", opts)
