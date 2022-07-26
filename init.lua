@@ -1,1 +1,15 @@
 -- csgn nvim 
+--
+require "csgn.options"
+require "csgn.keymaps"
+require "csgn.plugins"
+require "csgn.colorscheme"
+require "csgn.cmp"
+require "csgn.lsp"
+require "csgn.telescope"
+require "csgn.treesitter"
+require "csgn.autopairs"
+require "csgn.comment"
+require "csgn.nvim-tree"
+require "csgn.bufferline"
+require "csgn.lualine"
