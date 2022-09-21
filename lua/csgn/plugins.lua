@@ -74,7 +74,6 @@ return packer.startup(function(use)
     -- Telescope
   use "nvim-telescope/telescope.nvim"
   use 'nvim-telescope/telescope-media-files.nvim'
-
   
   -- Treesitter
   use {
@@ -86,6 +85,7 @@ return packer.startup(function(use)
 
   -- Comments
   use 'JoosepAlviste/nvim-ts-context-commentstring'
+
 
 
   -- Automatically set up your configuration after cloning packer.nvim
